@@ -1,0 +1,18 @@
+.fr{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 32px;
+}
+.re{
+    row-gap: 3px;
+}
+.mai{
+    width: 100%;
+    height: fit-content;
+    background-color: #000000;
+    color: aliceblue;
+}
+
+button{
+    color: aliceblue;
+    border: 2px solid white;
+}
