@@ -8,7 +8,7 @@ function CreateUser() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await axios.post('http://localhost:5000/users', form);
+    await axios.post('https://mian-agaz.onrender.com/users', form);
     navigate('/');
   };
 

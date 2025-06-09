@@ -6,7 +6,7 @@ function Users() {
   const [users, setUsers] = useState([]);
 
   const fetchUsers = async () => {
-    const res = await axios.get('http://localhost:5000/users');
+    const res = await axios.get('https://mian-agaz.onrender.com/users');
     setUsers(res.data);
   };
 
@@ -15,7 +15,7 @@ function Users() {
   }, []);
 
   const deleteUser = async (id) => {
-    await axios.delete(`http://localhost:5000/users/${id}`);
+    await axios.delete(`https://mian-agaz.onrender.com/users/${id}`);
     fetchUsers();
   };
 
